@@ -48,6 +48,10 @@ RUN chmod +x /start.sh /restore_snapshot.sh
 # Optionally copy the snapshot file
 ADD *snapshot*.json /
 
+# Echo the filename(s) that were copied
+RUN ls /*snapshot*.json && echo "Copied snapshot files: $(ls /*snapshot*.json)"
+
+
 # Restore the snapshot to install custom nodes
 RUN /restore_snapshot.sh
 
