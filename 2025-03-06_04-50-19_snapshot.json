@@ -1,6 +1,10 @@
 {
     "comfyui": "6752a826f66c4dcb0e0a06f6773f4604dd880355",
     "git_custom_nodes": {
+        "https://github.com/philiprodriguez/ComfyUI-HunyuanImageLatentToVideoLatent": {
+            "hash": "08e542b0da1e422f3c32a1fd73b0a0c772539ff3",
+            "disabled": false
+        },
         "https://github.com/ltdrdata/ComfyUI-Manager": {
             "hash": "e71e68e298463636dc0b1c3fead556b5e4ce966e",
             "disabled": false
